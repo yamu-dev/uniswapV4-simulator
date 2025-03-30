@@ -1,0 +1,16 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+ffi = true
+fs_permissions = [{ access = "read-write", path = ".forge-snapshots/"}]
+solc_version = "0.8.26"
+evm_version = "cancun"
+eth_rpc_url = "http://127.0.0.1:8545"
+
+[rpc_endpoints]
+anvil = "http://127.0.0.1:8545"
+
+
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
