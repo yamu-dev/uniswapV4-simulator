@@ -40,7 +40,7 @@ forge install
 forge test
 ```
 
-### How to Run SimulateTest
+## How to Run SimulateTest
 
 ```bash
 # start anvil, a local EVM chain
@@ -49,8 +49,6 @@ anvil
 # in a new terminal
 forge test --mt testSim -vv
 ```
-
-See [script/](script/) for hook deployment, pool creation, liquidity provision, and swapping.
 
 ---
 
