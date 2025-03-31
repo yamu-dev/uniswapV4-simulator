@@ -1,10 +1,7 @@
-# v4-template
+# uniswapV4-simulator
 ### **A template for writing Uniswap v4 Hooks 🦄**
 
 [`Use this Template`](https://github.com/uniswapfoundation/v4-template/generate)
-
-1. The example hook [Counter.sol](src/Counter.sol) demonstrates the `beforeSwap()` and `afterSwap()` hooks
-2. The test template [Counter.t.sol](test/Counter.t.sol) preconfigures the v4 pool manager, test tokens, and test liquidity.
 
 <details>
 <summary>Updating to v4-template:latest</summary>
